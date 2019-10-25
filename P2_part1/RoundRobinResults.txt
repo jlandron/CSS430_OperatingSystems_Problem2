@@ -1,0 +1,28 @@
+threadOS: a new thread (thread=Thread[Thread-3,5,main] tid=0 pid=-1)
+-->l Test2
+l Test2
+threadOS: a new thread (thread=Thread[Thread-5,5,main] tid=1 pid=0)
+threadOS: a new thread (thread=Thread[Thread-7,5,main] tid=2 pid=1)
+threadOS: a new thread (thread=Thread[Thread-9,5,main] tid=3 pid=1)
+threadOS: a new thread (thread=Thread[Thread-11,5,main] tid=4 pid=1)
+threadOS: a new thread (thread=Thread[Thread-13,5,main] tid=5 pid=1)
+threadOS: a new thread (thread=Thread[Thread-15,5,main] tid=6 pid=1)
+threadOS: a new thread (thread=Thread[Thread-17,5,main] tid=7 pid=1)
+threadOS: a new thread (thread=Thread[Thread-19,5,main] tid=8 pid=1)
+threadOS: a new thread (thread=Thread[Thread-21,5,main] tid=9 pid=1)
+threadOS: a new thread (thread=Thread[Thread-23,5,main] tid=10 pid=1)
+threadOS: a new thread (thread=Thread[Thread-25,5,main] tid=11 pid=1)
+Thread[a]: response time = 1964 turnaround time = 2464 execution time = 500
+Thread[b]: response time = 2963 turnaround time = 13967 execution time = 11004
+Thread[c]: response time = 3964 turnaround time = 15467 execution time = 11503
+Thread[d]: response time = 4964 turnaround time = 24968 execution time = 20004
+Thread[e]: response time = 5964 turnaround time = 33969 execution time = 28005
+Thread[f]: response time = 6965 turnaround time = 41970 execution time = 35005
+Thread[g]: response time = 7964 turnaround time = 47969 execution time = 40005
+Thread[h]: response time = 8965 turnaround time = 52970 execution time = 44005
+Thread[i]: response time = 9965 turnaround time = 56970 execution time = 47005
+Thread[j]: response time = 10965 turnaround time = 59971 execution time = 49006
+-->q
+q
+Superblock synchronized
+jlandron@uw1-320-04:~/U/Documents/CSS430/P2/ThreadOS$

@@ -1,0 +1,58 @@
+jlandron@uw1-320-04:~/U/Documents/CSS430/P2/ThreadOS$ java Boot
+threadOS ver 1.0:
+Type ? for help
+threadOS: a new thread (thread=Thread[Thread-3,5,main] tid=0 pid=-1)
+-->l Test2
+l Test2
+threadOS: a new thread (thread=Thread[Thread-5,5,main] tid=1 pid=0)
+threadOS: a new thread (thread=Thread[Thread-7,5,main] tid=2 pid=1)
+threadOS: a new thread (thread=Thread[Thread-9,5,main] tid=3 pid=1)
+threadOS: a new thread (thread=Thread[Thread-11,5,main] tid=4 pid=1)
+threadOS: a new thread (thread=Thread[Thread-13,5,main] tid=5 pid=1)
+threadOS: a new thread (thread=Thread[Thread-15,5,main] tid=6 pid=1)
+threadOS: a new thread (thread=Thread[Thread-17,5,main] tid=7 pid=1)
+threadOS: a new thread (thread=Thread[Thread-19,5,main] tid=8 pid=1)
+threadOS: a new thread (thread=Thread[Thread-21,5,main] tid=9 pid=1)
+threadOS: a new thread (thread=Thread[Thread-23,5,main] tid=10 pid=1)
+threadOS: a new thread (thread=Thread[Thread-25,5,main] tid=11 pid=1)
+Thread[a]: response time = 434 turnaround time = 6438 execution time = 6004
+Thread[b]: response time = 934 turnaround time = 7938 execution time = 7004
+Thread[c]: response time = 1435 turnaround time = 19440 execution time = 18005
+Thread[d]: response time = 1935 turnaround time = 21941 execution time = 20006
+Thread[e]: response time = 2435 turnaround time = 24942 execution time = 22507
+Thread[f]: response time = 2935 turnaround time = 39944 execution time = 37009
+Thread[g]: response time = 3435 turnaround time = 42945 execution time = 39510
+Thread[h]: response time = 3936 turnaround time = 51946 execution time = 48010
+Thread[i]: response time = 4436 turnaround time = 54947 execution time = 50511
+Thread[j]: response time = 4936 turnaround time = 59947 execution time = 55011
+-->q
+q
+Superblock synchronized
+-----------After optimization-------------
+threadOS: a new thread (thread=Thread[Thread-3,5,main] tid=0 pid=-1)
+-->l Test2
+l Test2
+threadOS: a new thread (thread=Thread[Thread-5,5,main] tid=1 pid=0)
+threadOS: a new thread (thread=Thread[Thread-7,5,main] tid=2 pid=1)
+threadOS: a new thread (thread=Thread[Thread-9,5,main] tid=3 pid=1)
+threadOS: a new thread (thread=Thread[Thread-11,5,main] tid=4 pid=1)
+threadOS: a new thread (thread=Thread[Thread-13,5,main] tid=5 pid=1)
+threadOS: a new thread (thread=Thread[Thread-15,5,main] tid=6 pid=1)
+threadOS: a new thread (thread=Thread[Thread-17,5,main] tid=7 pid=1)
+threadOS: a new thread (thread=Thread[Thread-19,5,main] tid=8 pid=1)
+threadOS: a new thread (thread=Thread[Thread-21,5,main] tid=9 pid=1)
+threadOS: a new thread (thread=Thread[Thread-23,5,main] tid=10 pid=1)
+threadOS: a new thread (thread=Thread[Thread-25,5,main] tid=11 pid=1)
+Thread[a]: response time = 495 turnaround time = 6513 execution time = 6018
+Thread[b]: response time = 995 turnaround time = 7112 execution time = 6117
+Thread[c]: response time = 1496 turnaround time = 7714 execution time = 6218
+Thread[d]: response time = 1974 turnaround time = 8292 execution time = 6318
+Thread[e]: response time = 2475 turnaround time = 8993 execution time = 6518
+Thread[f]: response time = 2977 turnaround time = 17500 execution time = 14523
+Thread[g]: response time = 3477 turnaround time = 20003 execution time = 16526
+Thread[h]: response time = 3978 turnaround time = 22504 execution time = 18526
+-->Thread[i]: response time = 4477 turnaround time = 29004 execution time = 24527
+Thread[j]: response time = 4948 turnaround time = 31480 execution time = 26532
+q
+q
+Superblock synchronized
